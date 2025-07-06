@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Great+Vibes&family=Indie+Flower&family=Quicksand:wght@300..700&family=Sacramento&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>📌 Portfolio</title>
+</head>
+
+<body>
+  <!--Menu de navegacion-->
+  <header>
+    <div class="header">Iris Gonzalez💜Web Developer</div>
+    <nav>
+      <ul>
+        <li><a href="#about_me">Sobre Mi</a></li>
+        <li><a href="#know">Conocimientos</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contacts">Contactos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Seccion principal-->
+  <section class="hero">
+    <div class="container">
+      <p>My</p>
+    </div>
+    <div class="container_one">
+      <h1>PORTFOLIO</h1>
+    </div>
+  </section>
+
+  <!--Seccion N° 2 Sobre mi, contiene una imagen-->
+  <section id="about_me">
+    <div class="img_about">
+      <div><img src="assets/silueta.jpg" alt="img" height="400px" width="400px"></div>
+      <div class="paragraph">
+        <h2>Sobre Mi</h2>
+        <p>Soy una profesional multidisciplinaria con experiencia en desarrollo web, marketing digital y enfermera;
+          Esta combinacion unica de habilidades tecnicas me permiten abordar y realizar proyectos con una
+          vision integral, centrada tanto en la experiencia del usuario como el bienestar de las personas; en el area
+          de marketing gestiono estrategias digitales orientadas a resultados optimos.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--Seccion N° 3 conocimientos de los distintos tipos de lenguaje, contiene imagenes-->
+  <section id="know">
+    <div class="logos">
+      <h2>Conocimientos</h2>
+    </div>
+    <div class="grille_img">
+      <div><img src="assets/html-5.png" alt="logo html"></div>
+      <div><img src="assets/css.png" alt="logo css"></div>
+      <div><img src="assets/secuencia-de-comandos-de-java.png" alt="logo"></div>
+      <div><img src="assets/github.png" alt="logo github"></div>
+    </div>
+  </section>
+
+  <!--Seccion N° 4 Proyectos en distintos cursos, contiene imagenes -->
+  <section id="projects">
+    <div>
+      <h2>Proyectos</h2>
+    </div>
+    <div class="cards">
+      <div class="letter"><img src="assets/Digital-Marketing.png" alt="img">
+        <h3>Marketing Digital</h3>
+        <p>Implemento estrategias y tecnicas utilizadas para promocionar productos o servicios a traves de medios
+          digitales, como redes sociales, motores de busquedas, email marketing y publicidad online.enfocada a alcanzar
+          la audiencia de manera segmentada midiendo resulatdos en tiempo real para optimizar campañas y maximizar el
+          retorno de inversion.</p>
+      </div>
+      <div class="letter"><img src="assets/community.jpg" alt="img">
+        <h3>Community Manager</h3>
+        <p>Construyo y gestiono de manera dinamica a la comunidad online marcas en redes sociales y plataformas
+          digitales, creando contenido, interactuo con la audiencia, monitoreo la reputacion digital con el objetivo de
+          fortalecer la relacion de la marca y su comunidad.</p>
+      </div>
+      <div class="letter"><img src="assets/front-end-development-1.jpg" alt="img">
+        <h3>Frontend</h3>
+        <p>Diseño la parte visual y interactiva de sitios web y aplicaciones enfocada en transformar el diseño y la
+          experiencia de usuario en codigo, utilizando tecnologias como HTML, CSS, Javascript, teniendo como objetivo
+          asegurarme que los usuarios tengan una experiencia fluida, atractiva y accesible en diferentes dispositivos y
+          navegadores.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Seccion N° 5 Contactos conyiene un formulario para contactar y dejar un mje-->
+  <section id="contacts">
+    <div class="content">
+      <h2>Contactos</h2>
+    </div>
+    <form id="form">
+      <label for="fullname">Nombre y Apellido</label>
+      <input type="text" id="fullname" placeholder="Ej: Juan Perez" requiered />
+      <label for="number">Escriba su numero de telefono</label>
+      <input type="number" id="number" placeholder="Ej: 1510000000" requiered>
+      <label for="email">Escriba su correo electronico</label>
+      <input type="email" id="email" placeholder="Ej: juanperez@gmail.com" requiered>
+      <label for="message">Escriba aqui su comentario</label>
+      <textarea name="message" id="message"></textarea>
+      <button>Enviar</button>
+    </form>
+  </section>
+
+  <!--Pie de pagina, con iconos que al dar click te redirecciona a otra pagina-->
+  <footer class="footer">
+    <div>
+      <p>Redes Sociales</p>
+      <div class="social_networks">
+        <a href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/accounts/recovery/landing?next=%2F&token=ZxZzyHNeOgUa4MXDjt1wNp5PM1nHaZI3Tn28IiTJ2osi76j9sr0kfJLG0plmVUSf%3Aone_click_login_landing"
+          target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:isabela.rodriguez298@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://web.facebook.com/login/?locale=es_LA&_rdc=1&_rdr#" target="_blank"><i
+            class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+
+    <section class="section_two">
+      <p>&copy; 2025 Iris Gonzalez <br> Todos los derechos reservados.</p>
+    </section>
+  </footer>
+</body>
+
+</html>
